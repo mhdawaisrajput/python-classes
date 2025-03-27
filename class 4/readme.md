@@ -11,7 +11,12 @@ Write a function that takes a string as input and returns the reversed string.
 ### Solution:
 ```python
 message = "hello"
-print(message[::-1])
+print(message[::-1])    
+```
+
+### Output:
+```
+olleh
 ```
 
 ---
@@ -36,6 +41,11 @@ def count_vowels(s):
 print(count_vowels("Pineapple"))
 ```
 
+### Output:
+```
+4
+```
+
 ---
 
 ## Problem 3: Sum of Digits
@@ -52,3 +62,10 @@ def sum_of_digits(n):
     return sum(int(digit) for digit in str(n))
 
 print(sum_of_digits(1234))
+```
+
+### Output:
+```
+10
+```
+
